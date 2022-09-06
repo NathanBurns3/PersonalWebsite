@@ -1,0 +1,246 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    /*background-color: #173042;*/
+    background: linear-gradient(160deg, #173042 0%, #214a59 25%, #2c6671 50%, #357c84 75%, #3f9599 100%);
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: azure;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.topnav a:hover {
+    color: aquamarine;
+}
+
+.resume {
+    float: right;
+    border: 2px solid aquamarine;
+    border-radius: 5px;
+    padding: 10px;
+    color: aquamarine;
+    background-color: transparent;
+    margin: 15px;
+}
+
+.resume:hover {
+    background-color: #2b4c63;
+    font-weight: bold;
+    padding: 10px 9px;
+}
+
+#about {
+    height: 500px;
+    /*background-color: aliceblue;*/
+}
+
+#projects {
+    height: 500px;
+    /*background-color: blanchedalmond*/
+}
+
+#skills {
+    height: 500px;
+    /*background-color: grey;*/
+}
+
+#contact {
+    height: 500px;
+    /*background-color: mintcream;*/
+}
+
+.home {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.home h3 {
+    margin-right: 450px;
+    color: darkgrey;
+    font-size: 30px;
+    margin-bottom: -65px;
+}
+
+.home h1 {
+    color: azure;
+    font-size: 100px;
+    margin-bottom: -5px;
+}
+
+.home h4 {
+    color: aquamarine;
+    margin-right: 351px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.home button {
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    height: 23px;
+}
+
+.home img {
+    width: 20px;
+    height: 20px;
+}
+
+.home form {
+    display: inline-block;
+    height: 31px;
+}
+
+.btn-group {
+    margin-right: 530px;
+}
+
+.pages {
+    margin: 50px;
+}
+
+#about {
+    margin-top: 400px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 400px;
+}
+
+#about h2 {
+    color: darkgrey;
+    font-size: 30px;
+    margin-right: 963px;
+    margin-bottom: -100px;
+}
+
+#about p {
+    color: azure;
+    font-size: 18px;
+    width: 900px;
+}
+
+.imageTextContainer {
+    display: flex;
+    margin-left: 360px;
+}
+
+.personalImage img {
+    margin-left: 30px;
+    border: 5px solid azure;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.personalImage img:hover {
+    margin-left: 30px;
+    border: 5px solid azure;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+#projects {
+    margin-top: 500px;
+    margin-bottom: 100px;
+}
+
+#title h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.row h2 {
+    color: darkslategrey;
+}
+
+#projects p {
+    color: darkslategrey;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    margin-top: 30px;
+    padding: 0 100px;
+}
+  
+@media screen and (max-width: 550px) {
+    .column {
+      width: 70%;
+      display: block;
+    }
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: azure;
+}
+  
+.container {
+    padding: 0 16px;
+    text-align: center;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: azure;
+    background-color: darkslategrey;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.button:hover {
+    background-color: darkgrey;
+}
+
+#skills {
+    margin-top: 500px;
+}
+
+#skills h2 {
+    color: darkgrey;
+    margin-top: 1000px;
+}
+
+#skills p {
+    color: azure;
+}
+
+#contact h2 {
+    color: darkgrey;
+    margin-top: 1000px;
+}
+
+#contact p {
+    color: azure;
+}
