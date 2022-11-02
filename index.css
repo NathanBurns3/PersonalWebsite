@@ -82,9 +82,28 @@ body {
     margin-bottom: -5px;
 }
 
+.home h1 {
+    overflow: hidden;
+    border-right: .1em solid aquamarine;
+    width: 0;
+    margin-left: 0em;
+    white-space: nowrap;
+    animation: typing 3s forwards;
+}
+  
+.home-container {
+    display: inline-block;
+}
+  
+@keyframes typing {
+    0% { width: 0 }
+    99% { width: 100%; border-right: .1em solid aquamarine; }
+    100% { width: 100%; border: transparent;}
+}
+
 .home h4 {
     color: aquamarine;
-    margin-right: 351px;
+    margin-right: 350px;
     margin-bottom: 25px;
     font-size: 20px;
 }
@@ -92,7 +111,7 @@ body {
 .home button {
     background-color: transparent;
     border: none;
-    margin: 5px;
+    margin: 4px;
     height: 23px;
 }
 
@@ -111,7 +130,7 @@ body {
 }
 
 #about { 
-    margin-top: 400px;
+    margin-top: 500px;
     margin-left: 15.5em;
 }
 
@@ -153,7 +172,7 @@ body {
 
 #projects {
     margin-top: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 1000px;
 }
 
 #title h2 {
@@ -218,10 +237,14 @@ body {
   
 .button:hover {
     background-color: darkgrey;
+    color: darkslategrey;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px;
 }
 
 #skills {
-    margin-top: 500px;
+    margin-top: 2000px;
 }
 
 #skills h2 {
