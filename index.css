@@ -250,7 +250,7 @@ body {
 
 #skills {
     margin-top: 1800px;
-    margin-left: 5.5em;
+    margin-left: 3em;
 }
 
 #skills h2 {
@@ -283,9 +283,9 @@ body {
     position:relative;
     display: inline-block;
     width:10%;
-    margin: -1.5em;
+    margin: -2em;
     margin-bottom: 2em;
-    margin-left: 5px;
+    margin-left: 0px;
 }
 
 #logo-holder .image {
@@ -345,6 +345,9 @@ body {
 }
 #sublime {
     margin-left: -.7em;
+}
+#postman {
+    margin-left: -1em;
 }
 #docker {
     margin-left: -.7em;
